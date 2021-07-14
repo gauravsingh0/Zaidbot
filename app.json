@@ -1,6 +1,6 @@
 {
-      "name": "Evil Bot",
-      "description": "An Anime Theme Telegram group management bot.",
+      "name": "Zaid Bot",
+      "description": "An Anime Theme Telegram group management bot By Zaid.",
       "keywords": [
          "telegram",
          "anime",
@@ -9,8 +9,8 @@
          "Evil"
       ],
     
-   "logo":    "https://telegra.ph/file/2345311d29a66213a9d98.jpg",  
-   "repository": "https://github.com/shrvan42/EvilBot",
+   "logo":    "https://telegra.ph/file/9621db7825b9cffe5d3d4.jpg",  
+   "repository": "https://github.com/ANMOL12334/Zaidbot",
    "addons": [
           {
          "options": {
@@ -60,12 +60,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "shrvan42"
+         "value": "timeisnotwaiting"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "EVIL_SUPPORT_CHAT"
+         "value": "Zaid_team"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
