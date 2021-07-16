@@ -65,32 +65,32 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 PM_START_TEXT = """
 `𝙷𝚎𝚕𝚕𝚘` [👿](https://telegra.ph/file/9621db7825b9cffe5d3d4.jpg) `𝙼𝚢 𝚗𝚊𝚖𝚎 𝚒𝚜` *Zaid Bot*
-`𝙸'𝚖 𝚑𝚎𝚛𝚎 𝚝𝚘 𝚑𝚎𝚕𝚙 𝚢𝚘𝚞 𝚖𝚊𝚗𝚊𝚐𝚎 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙𝚜! 𝙷𝚒𝚝` *📚𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜*   
+`𝙸'𝚖 𝚑𝚎𝚛𝚎 𝚝𝚘 𝚑𝚎𝚕𝚙 𝚢𝚘𝚞 𝚖𝚊𝚗𝚊𝚐𝚎 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙! 𝙷𝚒𝚝` *👉𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨*   
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐏𝐥𝐚𝐜𝐞😇", url="t.me/ZAID_ROBOT?startgroup=true"),
+            text="𝘼𝙙𝙙 𝙈𝙚 𝙏𝙤 𝙪𝙧 𝙜𝙧𝙤𝙪𝙥", url="t.me/ZAID_ROBOT?startgroup=true"),
     ],
      [
-        InlineKeyboardButton(text="𝐀𝐛𝐨𝐮𝐭💝", callback_data="evil_"),
+        InlineKeyboardButton(text="𝙈𝙮 𝙊𝙬𝙣𝙚𝙧💝", url="https://t.me/Timesisnotwaiting"),
         InlineKeyboardButton(
-            text="𝐌𝐲 𝐖𝐞𝐛🌐", url=f"http://zaidbots.art.blog"
+            text="𝙈𝙮 𝙒𝙤𝙧𝙡𝙙🌐", url="https://t.me/Zaid_Team"
         ),
      ],
      [  
-        InlineKeyboardButton(text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭🛠", url="https://t.me/Zaid_Team"),
-        InlineKeyboardButton(text="𝐑𝐞𝐩𝐨🇮🇳", url="https://github.com/ANMOL12334/Zaidbot"),
+        InlineKeyboardButton(text="𝙕𝙖𝙞𝙙 𝙎𝙪𝙥𝙥𝙤𝙧𝙩🛠", url="https://t.me/Zaid_Team"),
+        InlineKeyboardButton(text="𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/Sed_i"),
     ], 
 
     [
-        InlineKeyboardButton(text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬❔", callback_data="help_back"),
+        InlineKeyboardButton(text="𝙝𝙚𝙡𝙥 𝙖𝙣𝙙 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨❔", callback_data="help_back"),
     ],
 ]
 HELP_STRINGS = """
-`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *𝙴𝚟𝚒𝚕 𝚁𝚘𝚋𝚘𝚝* [👿](https://telegra.ph/file/ab5ca03efe14504732796.mp4)
+`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *Zaid Bot* [👿](https://telegra.ph/file/ab5ca03efe14504732796.mp4)
 `𝙲𝚕𝚒𝚌𝚔 𝚘𝚗 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠 𝚝𝚘 𝚐𝚎𝚝 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚊𝚋𝚘𝚞𝚝 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝚖𝚘𝚍𝚞𝚕𝚎𝚜..`"""
-evil_IMG = "https://telegra.ph/file/9621db7825b9cffe5d3d4.jpg"
+Zaid_IMG = "https://telegra.ph/file/9621db7825b9cffe5d3d4.jpg"
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @shrvan42 \
  Supporting isnt always financial! \
@@ -307,7 +307,7 @@ def evil_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' and I can play Music in voice chat
                  \n\n_My licensed under the GNU General Public License v3.0_ 
-                      here is this [Repository](https://github.com/ANMOL12334/Zaidbot) .""",
+                      here is this [Owner](https://t.me/Timesisnotwaiting) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -332,7 +332,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hey!.. I'm *Zaid bot*
-                 \nHere is the [Source Code](https://github.com/ANMOL12334/Zaidbot) .""",
+                 \nHere is the [Owner](https://t.me/Timesisnotwaiting) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
